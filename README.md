@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
+# 🌟 PathForge Automations — Personal Portfolio
 
-## Project info
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/pathforgeautomations/deploys)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.0-646CFF?logo=vite)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.1-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**URL**: https://lovable.dev/projects/a983685f-1bdb-490b-92d3-c6a9f3e19784
+A modern, fully responsive, and high-performance personal portfolio website built to showcase your **projects**, **skills**, and **experience** with a professional and elegant design.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌐 Live Demo
 
-**Use Lovable**
+🔗 **Website:** [https://pathforgeautomations.netlify.app](https://pathforgeautomations.netlify.app)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a983685f-1bdb-490b-92d3-c6a9f3e19784) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Overview
 
-**Use your preferred IDE**
+**PathForge Automations Portfolio** is a digital representation of innovation through automation.  
+It’s a sleek, interactive, and performance-optimized web portfolio designed for professionals, entrepreneurs, and tech innovators to present their work beautifully online.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Built using:
+- ⚛️ React + TypeScript  
+- ⚡ Vite  
+- 💅 Tailwind CSS + shadcn/ui  
+- 🎨 Framer Motion  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧩 Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+✅ Fully Responsive Design (mobile-first)  
+✅ Fast Loading & Optimized Performance  
+✅ Modern UI built with Tailwind & shadcn/ui  
+✅ Smooth Animations with Framer Motion  
+✅ SEO-Ready Structure  
+✅ Simple to Customize and Extend  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🎨 Customization Guide
 
-**Edit a file directly in GitHub**
+| Feature | File to Edit |
+|----------|--------------|
+| **Profile Info / Bio** | `src/sections/About.tsx` |
+| **Projects** | `src/data/projects.ts` |
+| **Skills** | `src/data/skills.ts` |
+| **Social Links** | `src/data/socials.ts` |
+| **Colors / Theme** | `tailwind.config.js` |
+| **SEO / Metadata** | `index.html` |
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💡 *Tip:* Replace default visuals in `/public` and `/src/assets` with your own images and icons for a personalized look.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Deployment
 
-## What technologies are used for this project?
+This portfolio is hosted live on **Netlify** at:
 
-This project is built with:
+🌐 **https://pathforgeautomations.netlify.app**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To connect a custom domain:
+1. Go to **Netlify → Site Settings → Domain Management**
+2. Click **“Add custom domain”**
+3. Enter your domain (e.g., `www.pathforgeautomations.com`)
+4. Update your DNS records as per Netlify instructions
+5. Wait for propagation (10–30 minutes)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/a983685f-1bdb-490b-92d3-c6a9f3e19784) and click on Share -> Publish.
+## 🧠 Best Practices
 
-## Can I connect a custom domain to my Lovable project?
+- Maintain clean, modular component structure  
+- Optimize all images (under 500 KB) for faster loading  
+- Use descriptive alt tags for accessibility  
+- Commit with clear, descriptive messages  
+- Regularly refresh dependencies for security  
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📸 Screenshots
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+| Home | Projects | Contact |
+|------|-----------|----------|
+| ![Home Screenshot](./public/home-preview.png) | ![Projects Screenshot](./public/projects-preview.png) | ![Contact Screenshot](./public/contact-preview.png) |
+
+*(Replace placeholders with actual screenshots.)*
+
+---
+
+## 🔍 SEO Recommendations
+
+- Update your HTML metadata:
+  ```html
+  <title>PathForge Automations | Portfolio</title>
+  <meta name="description" content="Explore PathForge Automations – delivering modern automation and digital solutions.">
+MIT License © 2025 PathForge Automations
+
+
