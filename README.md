@@ -83,14 +83,6 @@ To connect a custom domain:
 
 ---
 
-## 📸 Screenshots
-
-| Home | Projects | Contact |
-|------|-----------|----------|
-| ![Home Screenshot](./public/home-preview.png) | ![Projects Screenshot](./public/projects-preview.png) | ![Contact Screenshot](./public/contact-preview.png) |
-
-*(Replace placeholders with actual screenshots.)*
-
 ---
 
 ## 🔍 SEO Recommendations
